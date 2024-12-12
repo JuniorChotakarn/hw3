@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  
+}
+
+.container {
+    background-image:linear-gradient(to bottom,#000000bb,#00000022,#000000bb) , url(./Pix/Bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+   
+    
+}
+
+header {
+    font-size: 20px;
+    height: 5vh;
+    text-align: right;
+    margin-right: 200px;
+
+
+}
+
+
+main{
+    font-size: 30px;
+    height: 85vh;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.progress {
+    width: 300px;
+    height: 20px;
+    background: #e0e0e0;
+    border-radius: 10px;
+    margin: 20px auto; /* Centers the progress bar horizontally */
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-bar {
+    width: 50%; /* Example progress */
+    height: 100%;
+    background: rgb(35, 182, 231);
+}
+
+.progress-labels {
+    display: flex;
+    justify-content: space-between;
+    width: 300px; /* Match the width of the progress bar */
+    margin: 5px auto; /* Centers the labels horizontally */
+    font-size: 12px;
+}
+button {
+    background-color: #6bb6cf;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.linkbar img{
+height: 60px;
+padding: 10px;
+border: 1px black solid;
+border-radius: 50%;
+}
+   
+
+
+
+
+footer{
+    height: 5vh;
+    text-align: center;
+
+}
+
+
